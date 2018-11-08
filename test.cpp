@@ -6,6 +6,27 @@ int dodaj(int a,int b)
     return a+b;
 }
 
+int odejmij(int a,int b)
+{
+    return a-b;
+}
+
+int mnoz(int a,int b)
+{
+    return a*b;
+}
+
+int dziel(int a,int b)
+{
+    if(b==0)
+    {
+        cout<<"nie dziel przez 0";
+        return 0;
+    }
+    else return a/b;
+
+}
+
 int main()
 {
     int menu;
@@ -28,6 +49,15 @@ int main()
     {
     case 1:
         wynik=dodaj(a,b);
+        break;
+    case 2:
+        wynik=odejmij(a,b);
+        break;
+    case 3:
+        wynik=mnoz(a,b);
+        break;
+    case 4:
+        wynik=dziel(a,b);
         break;
     }
 
