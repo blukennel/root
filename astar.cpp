@@ -3,7 +3,7 @@
 // Algorytm A* - rozwiazanie
 // 30.10.2018
 //==========================
-//blabla git
+//blabla gitfghfh
 #include <iostream>
 #include <fstream>
 #include <string>
