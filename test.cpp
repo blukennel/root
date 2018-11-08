@@ -1,10 +1,16 @@
 #include <iostream>
 using namespace std;
 
+int dodaj(int a,int b)
+{
+    return a+b;
+}
+
 int main()
 {
     int menu;
     int a,b;
+    int wynik;
 
     cout<<"1) Dodawanie"<<endl;
     cout<<"2) Odejmowanie"<<endl;
@@ -20,8 +26,12 @@ int main()
 
     switch(menu)
     {
-
+    case 1:
+        wynik=dodaj(a,b);
+        break;
     }
+
+    cout<<wynik;
 
     getchar();
     return 0;
