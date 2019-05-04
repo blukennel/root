@@ -26,3 +26,5 @@ echo -e #Pomija nawiasy itd
 find *.ext #wyswietle wszytkie pliki z katalogu o rozszerzeniu .ext
 pwd #podaje obecna sciezke
 # CTRL + C #zatrzymaj program
+cal #pokaz kalendarz
+date #pokaz date
