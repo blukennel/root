@@ -28,3 +28,5 @@ pwd #podaje obecna sciezke
 # CTRL + C #zatrzymaj program
 cal #pokaz kalendarz
 date #pokaz date
+cat file.ext | grep wyraz #pokazuje liniji w ktorych jest "wyraz" i podkresla
+ps -a | grep firefox #pokazuje id procesu firefox
