@@ -30,3 +30,12 @@ cal #pokaz kalendarz
 date #pokaz date
 cat file.ext | grep wyraz #pokazuje liniji w ktorych jest "wyraz" i podkresla
 ps -a | grep firefox #pokazuje id procesu firefox
+ssh user@ip #ssh
+
+screen -list #wyswietla ekrany
+screen -X -S 123456 quit #zamyka ekran i procesy
+screen # uruchamia screen
+screen -r 123456 #podlaczyc ekran
+#CTRL+a d #odlacz
+screen -S nazwa #tworzy ekran o nazwie
+
