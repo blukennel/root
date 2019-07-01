@@ -1,0 +1,20 @@
+.addon {
+  color: red;
+}
+
+body {
+  background-color: #303030;
+  color: white;
+}
+
+.box {
+  border: solid white 2px;
+  height: 300px;
+  width: 600px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.background {
+  background-color: green;
+}
